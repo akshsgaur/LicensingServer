@@ -2,6 +2,8 @@ from flask import Flask, render_template,redirect, request, flash, url_for, sess
 from flask_sqlalchemy import SQLAlchemy
 from random import randint, randrange
 
+#AddingTestComment
+
 app = Flask(__name__)
 app.config['SQLALCHAMY_DATABASE_URI'] = 'sqlite:///students.sqlite3'
 app.config['SECRET_KEY'] = "Random String"
